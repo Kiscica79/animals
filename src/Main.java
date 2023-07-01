@@ -14,9 +14,9 @@ public class Main {
             int age = Integer.parseInt(lineAsArray[1]);
             String color = lineAsArray[2];
 
-            Dog actualChicken = new Dog(lineAsArray[0], Integer.parseInt(lineAsArray[1]),
+            Dog actualDog = new Dog(lineAsArray[0], Integer.parseInt(lineAsArray[1]),
                     lineAsArray[2]);
-            dogs.add(actualChicken);
+            dogs.add(actualDog);
 
         }
         for (var actualDog : dogs) {
@@ -29,14 +29,15 @@ public class Main {
         for (var line : otherLines) {
             String[] lineAsArray = line.split(", ");
             int eggPerSec = Integer.parseInt(lineAsArray[0]);
-            int weight = Integer.parseInt(lineAsArray[1]);
+            double weight = Integer.parseInt(lineAsArray[1]);
 
             Chicken actualChicken = (new Chicken(Integer.parseInt(lineAsArray[0]),
-                    Integer.parseInt(lineAsArray[1])));
+                    Double.parseDouble(lineAsArray[1])));
         }
         for (var actualChicken : chickens) {
             System.out.println(actualChicken);
         }
+
 
 
     }
