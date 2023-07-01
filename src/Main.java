@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // dog
-        List<String> lines = FileReader.fileReadHandler("dog.txt");
+        List<String> lines = FileReader.fileReadHandler("res/dog.txt");
         List<Dog> dogs = new ArrayList<>();
         List<Animal> animals = new ArrayList<>();
 
@@ -25,7 +25,7 @@ public class Main {
         }
 
         // chicken
-        List<String> otherLines = FileReader.fileReadHandler("chicken.txt");
+        List<String> otherLines = FileReader.fileReadHandler("res/chicken.txt");
         List<Chicken> chickens = new ArrayList<>();
 
         for (var line : otherLines) {
@@ -42,7 +42,7 @@ public class Main {
          }
 
          // máshogy, ha a vegyes.txt-ből
-        List<String> linesOther2 = FileReader.fileReadHandler("vegyes.txt");
+        List<String> linesOther2 = FileReader.fileReadHandler("res/vegyes.txt");
          List<Animal> animals1 = new ArrayList<>();
 
         for (String line : linesOther2) {
