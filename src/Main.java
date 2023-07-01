@@ -31,7 +31,7 @@ public class Main {
         for (var line : otherLines) {
             String[] lineAsArray = line.split(",");
             int eggPerSec = Integer.parseInt(lineAsArray[0]);
-            double weight = Integer.parseInt(lineAsArray[1]);
+            double weight = Double.parseDouble(lineAsArray[1]);
 
             Chicken actualChicken = (new Chicken(Integer.parseInt(lineAsArray[0]),
                     Double.parseDouble(lineAsArray[1])));
