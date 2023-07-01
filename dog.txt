@@ -1,0 +1,9 @@
+Snauzer, 1, fekete
+Németjuhász, 2, barna
+Rotweiler, 3, fekete
+Vizsla, 4, világosbarna
+Kuvasz, 5, fehér
+Kommondor, 6, fehér
+Puli, 7, fekete
+Keverék, 8, rozsdabarna
+
