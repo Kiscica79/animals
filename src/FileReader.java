@@ -8,12 +8,6 @@ public class FileReader {
 
     private static final List<String> dogs = new ArrayList<>();
 
-    public static List<String> thisADogList(String dog) {
-        for (String actualDog : dogs) {
-            dogs.add(dog);
-        }
-        return thisADogList(dog);
-    }
 
     public static List<String> fileReadHandler(String filePath) {
         List<String> strings = new ArrayList<>();
